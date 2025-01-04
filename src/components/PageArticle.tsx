@@ -9,7 +9,9 @@ interface Attr{
 function PageArticle (props:Attr | null){
     console.log(props);
     return (
-    <article>Hello World</article>
+    <article><h1>NeworldTax LLc</h1>
+    <h2>Remi Okeowo</h2>
+    </article>
     );
 }
 
