@@ -9,7 +9,6 @@ import PageHeader from './components/PageHeader'
 import PageArticle from './components/PageArticle'
 import PageFooter from './components/PageFooter'
 import PageNav from './components/PageNav'
-import CalendlyWidget from './components/CalendlyWidget'
 import CalendlyButton from './components/CalendlyButton'
 
 function App(){
@@ -22,7 +21,6 @@ function App(){
         <PageArticle />
       </div>
       <div id="footer">
-        {/* <CalendlyWidget /> */}
         <CalendlyButton />
         <PageFooter />
       </div>
