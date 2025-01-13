@@ -3,16 +3,30 @@
 // import viteLogo from '/vite.svg'
 import './components/PageArticle'
 import './App.css'
+// import './index.css'
+import './styles/index.css'
 import PageHeader from './components/PageHeader'
 import PageArticle from './components/PageArticle'
 import PageFooter from './components/PageFooter'
+import PageNav from './components/PageNav'
+import CalendlyWidget from './components/CalendlyWidget'
+import CalendlyButton from './components/CalendlyButton'
 
 function App(){
   return (
     <>
-    <PageHeader />
-    <PageArticle />
-    <PageFooter />
+    <div id="page">
+      <PageHeader />
+      <div id="content">
+        <PageNav />
+        <PageArticle />
+      </div>
+      <div id="footer">
+        {/* <CalendlyWidget /> */}
+        <CalendlyButton />
+        <PageFooter />
+      </div>
+    </div>
     </>
   );
 }

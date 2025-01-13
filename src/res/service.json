@@ -1,0 +1,22 @@
+{
+    "services": {
+        "name": "Services",
+        "list": [
+            {
+                "name": "Tax Preparation"
+            },
+            {
+                "name": "IRS E-Filing"
+            },
+            {
+                "name": "Tax Resolution Services"
+            },
+            {
+                "name": "Book Keeping"
+            },
+            {
+                "name": "Small Business Tax Consultancy"
+            }
+        ]
+    }
+}

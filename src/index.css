@@ -66,3 +66,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* custom */
+#masthead {
+  font-family: 'Josefin Sans';
+  color: #9933ff;
+}
+
+#root {
+  width: 100%;
+}
+
+#page-nav {
+  left: 2ex;
+}
