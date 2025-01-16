@@ -1,6 +1,11 @@
 {
     "media": [
         {
+            "name": "Email",
+            "type": "svg",
+            "url": "mailto:ny@neworldtax.com?&subject=Re: Tax Enquiry"
+        },
+        {
             "name": "Instagram",
             "type": "svg",
             "url": "https://www.instagram.com/neworldtaxllc/"

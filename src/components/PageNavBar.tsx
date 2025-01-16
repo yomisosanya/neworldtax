@@ -7,15 +7,27 @@ export default function PageNavBar(){
     const media = data.media;
 
     return (
-        <nav>
-            <menu>
+        <nav 
+            className='card'
+            style={{margin: '1em', paddingRight: '1em'}}
+        >
+            <menu
+                // className='card'
+                style={{display: 'flex', justifyContent: 'flex-end'}}
+            >
                 { media.map((item) => (
-                    <li>
-                        <a>
+                    <li 
+                        className="no-marker"
+                        style={{marginLeft: '1em'}}
+                    >
+                        <a
+                            href={item.url}
+                            target='_blank'
+                        >
                             <img
                                 src={`${path}${item.name.toLowerCase()}.${item.type}`}
-                                width="50"
-                                height="50"
+                                width="40"
+                                height="40"
                                 role= 'img'
                                 alt= {`${item.name} icon`}
                             />

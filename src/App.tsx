@@ -8,7 +8,7 @@ import './styles/index.css'
 import PageHeader from './components/PageHeader'
 import PageArticle from './components/PageArticle'
 import PageFooter from './components/PageFooter'
-// import PageNavBar from './components/PageNavBar'
+import PageNavBar from './components/PageNavBar'
 // import PageNav from './components/PageNav'
 import PageSidebar from './components/PageSidebar'
 import CalendlyButton from './components/CalendlyButton'
@@ -16,9 +16,9 @@ import CalendlyButton from './components/CalendlyButton'
 function App(){
   return (
     <>
-    <div id="page">
+    <div id="page card">
       <PageHeader />
-      {/* <PageNavBar /> */}
+      <PageNavBar />
       <PageSidebar />
       <div id="content">
         <PageArticle />

@@ -6,11 +6,21 @@ export default function PageSidebar(){
 
     return(
         <nav>
-            <figure>
-                <figcaption>
-                    {header}
+            <figure
+                className='card'
+                style={{width: '18rem', margin: '1em'}}
+            >
+                <figcaption
+                    className='card-header'
+                >
+                    <strong>
+                        {header}
+                    </strong>
                 </figcaption>
-                <ul>
+                <ul 
+                    id='page-side-bar'
+                    className='list-group'
+                >
                     {items.map((item) => (
                         <li 
                             className='list-group-item'

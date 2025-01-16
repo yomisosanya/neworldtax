@@ -3,9 +3,16 @@
 function PageHeader() {
 
     return (
-        <header className="sticky-top">
-            <h3 className="header-center">
-                <span className="office-name">
+        <header 
+            className="sticky-top"
+            style={{margin: '1em'}}
+        >
+            <h3 
+                className="header-center page"
+            >
+                <span 
+                    className="office-name"
+                >
                     NEWORLDTAX LLC
                 </span>
             </h3>

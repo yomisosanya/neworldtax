@@ -4,22 +4,25 @@ function PageFooter(){
 
     return (
         <>
-        <footer className="fixed-bottom">
+        <footer 
+            className="fixed-bottom page"
+            style={{margin: '1em'}}
+        >
         <ul className="list-group list-group-horizontal justify-content-center">
             <li className="list-group-item">
                 <address>
                     <span className="adr" >
-                        <span className="street-address" >35 Broad Street,</span>
-                        <span className="locality" > Staten Island,</span>
-                        <abbr className="region" title="New York" > NY</abbr>
-                        <span className="postal-code" > 10304</span>
+                        <span className="street-address" ><strong>35 Broad Street,</strong></span>
+                        <span className="locality" ><strong> Staten Island,</strong></span>
+                        <abbr className="region" title="New York" ><strong> NY</strong></abbr>
+                        <span className="postal-code" ><strong> 10304</strong></span>
                     </span>
                 </address>
             </li>
-            <li className="list-group-item"><address><a href="tel:+5555555555">555-555-5555</a></address></li>
+            <li className="list-group-item"><address><a href="tel:+9172542372">(917) 254-2372</a></address></li>
             <li className="list-group-item">Fax</li>
             <li className="list-group-item">
-                <address><a href="mailto:help@neworldtax.com" >help@neworldtax.com</a></address>
+                <address><a href="mailto:help@neworldtax.com" >ny@neworldtax.com</a></address>
             </li>
         </ul>
         </footer>
