@@ -3,7 +3,7 @@ import data from '../res/link.json'
 
 
 export default function PageNavBar(){
-    const path: string = './src/assets/';
+    // const path: string = './src/assets/';
     const media = data.media;
 
     return (
@@ -12,7 +12,6 @@ export default function PageNavBar(){
             style={{margin: '1em', paddingRight: '1em'}}
         >
             <menu
-                // className='card'
                 style={{display: 'flex', justifyContent: 'flex-end'}}
             >
                 { media.map((item) => (
