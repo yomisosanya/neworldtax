@@ -12,13 +12,13 @@ interface State{
 
 export default function CalendlyButton(){
     const [state, setState] = useState<State>({isOpen: false});
-    //const layout = {'background-color': '#0099ff', 'display': 'inline-flex'};
+    const layout = {'background-color': '#0099ff', 'display': 'inline-flex'};
     return (
         <>
           <button
             id='calendly-schedule-button'
             className='btn btn-primary'
-            // style={layout}
+            style={layout}
             onClick={() => setState({isOpen: true})}
            >
             Schedule Appointment
@@ -27,7 +27,7 @@ export default function CalendlyButton(){
             url="https://calendly.com/contactlesstax"
             onModalClose={() => setState({isOpen: false})}
             open={state.isOpen}
-            rootElement={document.getElementById('page') as HTMLElement}
+            rootElement={document.getElementById('root') as HTMLElement}
           />
         </>
     );
