@@ -25,7 +25,8 @@ export default function PageNavBar(){
                             target='_blank'
                         >
                             <img
-                                src={`${path}${item.name.toLowerCase()}.${item.type}`}
+                                // src={`${path}${item.name.toLowerCase()}.${item.type}`}
+                                src={item.src}
                                 width="40"
                                 height="40"
                                 role= 'img'
