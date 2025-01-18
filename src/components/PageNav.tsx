@@ -22,7 +22,7 @@ export default function PageNav(){
             <ul id='services' className='list-group'>
                 {/* <li className="list-group-item">{data.services.name}</li> */}
                 {items.map((item) => (
-                    <li className='list-group-item' key={item.name}>{item.name}</li>
+                    <li className='list-group-item' key={`service-${item.name}`}>{item.name}</li>
                 ))}
             </ul>
         </div>

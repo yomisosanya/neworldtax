@@ -1,0 +1,35 @@
+[
+    {
+        "name": "General",
+        "description": "General requirements",
+        "list": [
+            "ID card",
+            "Social Security Card"
+        ]
+    },
+    {
+        "name": "Self-Employed",
+        "description": "",
+        "list": [
+            "1099 (if applicable)",
+            "Invoices",
+            "Bank Statements",
+            "Sales Records",
+            "Other income records"
+        ]
+    },
+    {
+        "name": "Student",
+        "description": "",
+        "list": [
+            "School record"
+        ]
+    },
+    {
+        "name": "Itemized Taxes",
+        "description": "",
+        "list": [
+            "Medical record"
+        ]
+    }
+]

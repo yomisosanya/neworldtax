@@ -1,4 +1,5 @@
 import data from '../res/link.json'
+import CalendlyButton from './CalendlyButton';
 
 
 
@@ -9,15 +10,17 @@ export default function PageNavBar(){
     return (
         <nav 
             className='card'
-            style={{margin: '1em', paddingRight: '1em'}}
+            style={{margin: '1em', paddingRight: '1em', backgroundColor: '#e8f8f5'}}
         >
             <menu
                 style={{display: 'flex', justifyContent: 'flex-end'}}
             >
-                { media.map((item) => (
+                <CalendlyButton />
+                { media.map((item, index) => (
                     <li 
                         className="no-marker"
                         style={{marginLeft: '1em'}}
+                        key={`link-item-${index}`}
                     >
                         <a
                             href={item.url}

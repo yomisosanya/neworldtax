@@ -3,28 +3,34 @@
 // import viteLogo from '/vite.svg'
 import './components/PageArticle'
 import './App.css'
-// import './index.css'
 import './styles/index.css'
 import PageHeader from './components/PageHeader'
-import PageArticle from './components/PageArticle'
 import PageFooter from './components/PageFooter'
 import PageNavBar from './components/PageNavBar'
-// import PageNav from './components/PageNav'
 import PageSidebar from './components/PageSidebar'
-import CalendlyButton from './components/CalendlyButton'
 
-function App(){
+import PageRequirement from './components/PageRequirement'
+import PageWordArt from './components/PageWordArt'
+
+export default function App(){
   return (
     <>
-    <div id="page card">
+    <div 
+        id="page card"
+        style={{backgroundColor: '#f8f9f9'}}
+        // style={{backgroundColor: 'lime'}}
+    >
       <PageHeader />
       <PageNavBar />
-      <PageSidebar />
-      <div id="content">
-        <PageArticle />
+      <div id="content" className='flex'>
+        <PageSidebar />
+        <PageWordArt />
+        <PageRequirement />
       </div>
-      <div id="footer">
-        <CalendlyButton />
+      <div 
+          id="footer"
+          style={{height: 'fit-content'}}
+      >
         <PageFooter />
       </div>
     </div>
@@ -61,4 +67,3 @@ function App(){
 //   )
 // }
 
-export default App

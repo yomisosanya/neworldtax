@@ -12,13 +12,13 @@ interface State{
 
 export default function CalendlyButton(){
     const [state, setState] = useState<State>({isOpen: false});
-    const layout = {'background-color': '#0099ff', 'display': 'inline-flex'};
+    // const layout = {'backgroundColor': '#0099ff', 'display': 'inline-flex'};
     return (
         <>
           <button
             id='calendly-schedule-button'
-            className='btn btn-primary'
-            style={layout}
+            className='btn btn-outline-success'
+            // style={{display}}
             onClick={() => setState({isOpen: true})}
            >
             Schedule Appointment
