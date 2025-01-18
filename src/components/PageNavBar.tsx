@@ -1,5 +1,6 @@
 import data from '../res/link.json'
 import CalendlyButton from './CalendlyButton';
+import JotFormTemp from './JotFormTemp';
 
 
 
@@ -15,6 +16,7 @@ export default function PageNavBar(){
             <menu
                 style={{display: 'flex', justifyContent: 'flex-end'}}
             >
+                <JotFormTemp />
                 <CalendlyButton />
                 { media.map((item, index) => (
                     <li 

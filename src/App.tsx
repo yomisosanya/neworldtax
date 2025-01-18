@@ -20,19 +20,26 @@ export default function App(){
         style={{backgroundColor: '#f8f9f9'}}
         // style={{backgroundColor: 'lime'}}
     >
-      <PageHeader />
-      <PageNavBar />
-      <div id="content" className='flex'>
-        <PageSidebar />
-        <PageWordArt />
-        <PageRequirement />
-      </div>
-      <div 
-          id="footer"
-          style={{height: 'fit-content'}}
-      >
-        <PageFooter />
-      </div>
+        <PageHeader />
+        <PageNavBar />
+        <div 
+            id="content" 
+            className=''
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap'
+            }}
+        >
+            <PageSidebar />
+            <PageWordArt />
+            <PageRequirement />
+        </div>
+         <div 
+            id="footer"
+            style={{height: 'fit-content'}}
+        >
+            <PageFooter />
+        </div>
     </div>
     </>
   );

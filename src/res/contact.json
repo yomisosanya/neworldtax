@@ -1,0 +1,17 @@
+{
+    "location": {
+        "number": "35",
+        "street": "Broad Street",
+        "suite": "",
+        "city": "Staten Island",
+        "state": "NY",
+        "zip-code": "10304" 
+    },
+    "phone": {
+        "area-code": "917",
+        "prefix": "254",
+        "line-number": "2372"
+    },
+    "email": "ny@neworldtax.com",
+    "url": "https://www.neworldtax.com/"
+}
