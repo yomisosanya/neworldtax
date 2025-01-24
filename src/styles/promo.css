@@ -1,0 +1,54 @@
+
+.promo-outer-box{
+    /* background-color: MediumOrchid; */
+    background-color: Azure;
+    padding: 2ex; 
+    margin-top: 2ex;
+    width: 100%;
+    min-width: 300px;
+    /* border-style: groove; */
+    /* place child in the center */
+    display: flex;
+    justify-content: center;
+    /* color:azure; */
+}
+
+
+.promo-inner-box{
+    /* display children horizontally */
+    display: flex;
+    background-color: SkyBlue;
+    border-style: groove;
+    border-radius: 10px;
+    /* border-color: SkyBlue; */
+    /* padding: 5px; */
+}
+
+.promo-img{
+    width: 480px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.promo-title{
+    padding: 2px;
+    margin: 2px;
+    border-style: groove;
+    border-radius: 10px;
+    color: Indigo;
+}
+
+.promo-list{
+    outline: 4px solid khaki;
+    border-radius: 10px;
+    padding: auto;
+    margin: 8px;
+}
+
+.promo-title:hover{
+    color: ForestGreen;
+}
+
+.hover-bold:hover{
+    font-weight: bold;
+}

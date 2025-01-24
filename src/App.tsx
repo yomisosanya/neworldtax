@@ -5,40 +5,50 @@ import './components/PageArticle'
 import './App.css'
 import './styles/index.css'
 import PageHeader from './components/PageHeader'
-import PageFooter from './components/PageFooter'
+import PageFooter2 from './components/PageFooter2'
 import PageNavBar from './components/PageNavBar'
 import PageSidebar from './components/PageSidebar'
+import Promo1 from './components/Promo1'
+import Promo2 from './components/Promo2'
+import Promo3 from './components/Promo3'
 
 import PageRequirement from './components/PageRequirement'
 import PageWordArt from './components/PageWordArt'
+
 
 export default function App(){
   return (
     <>
     <div 
-        id="page card"
+        id="base"
         style={{backgroundColor: '#f8f9f9'}}
-        // style={{backgroundColor: 'lime'}}
     >
-        <PageHeader />
-        <PageNavBar />
+       <div
+         id="base-header"
+       >
+         <PageHeader />
+         <PageNavBar />
+       </div>
         <div 
-            id="content" 
-            className=''
-            style={{
-              display: 'flex',
-              flexWrap: 'wrap'
-            }}
+            id="base-content" 
+            // className=''
+            // style={{
+            //   display: 'flex',
+            //   flexWrap: 'wrap'
+            // }}
         >
             <PageSidebar />
             <PageWordArt />
             <PageRequirement />
         </div>
-         <div 
-            id="footer"
-            style={{height: 'fit-content'}}
+        <Promo3 />
+        <Promo2 />
+        <Promo1 />
+        <div 
+            id="base-footer"
+            // style={{height: 'fit-content'}}
         >
-            <PageFooter />
+            <PageFooter2 />
         </div>
     </div>
     </>

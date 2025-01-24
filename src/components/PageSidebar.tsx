@@ -13,7 +13,9 @@ export default function PageSidebar(){
                 <figcaption
                     className='card-header'
                 >
-                    <strong>
+                    <strong
+                        className='list-header'
+                    >
                         {header}
                     </strong>
                 </figcaption>
@@ -23,10 +25,14 @@ export default function PageSidebar(){
                 >
                     {items.map((item) => (
                         <li 
-                            className='list-group-item'
+                            className='list-group-item list-hover sb-list-item'
                             key={item.name}
                         >
-                            {item.name}
+                            <span
+                                className=''
+                            >
+                                {item.name}
+                            </span>
                         </li>
                     ))}
                 </ul>

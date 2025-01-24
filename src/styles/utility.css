@@ -1,0 +1,12 @@
+
+
+.list-no-marker {
+    list-style: none;
+}
+
+.content-justify-center{
+    /*apply to parent*/
+    display: flex;
+    justify-content: center;
+}
+
