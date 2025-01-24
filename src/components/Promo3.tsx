@@ -16,7 +16,7 @@ export default function Promo3(){
                 <img
                     className='promo-img'
                     alt='Child-Care Tax Credits Picture'
-                    src='./src/assets/stock/istockphoto-1446885495-612x612.webp'
+                    src='./src/assets/stock/mother-daughter.webp'
                     // width={width}
                     // height={height}
                     role='img'

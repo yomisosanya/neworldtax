@@ -15,7 +15,7 @@ export default function Promo2(){
                 <img
                     className='promo-img'
                     alt='Income Tax Picture'
-                    src='./src/assets/stock/pexels-photo-3801451.webp'
+                    src='./src/assets/stock/waitress.webp'
                     // width={width}
                     // height={height}
                     role='img'
