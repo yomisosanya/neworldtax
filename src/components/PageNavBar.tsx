@@ -9,7 +9,7 @@ export default function PageNavBar(){
     // const path: string = './src/assets/';
     const media = data.media;
     const width: string = '32px';
-    const height: string = '32px';
+    // const height: string = '32px';
 
     return (
         <nav 
@@ -38,7 +38,6 @@ export default function PageNavBar(){
                                 // src={`${path}${item.name.toLowerCase()}.${item.type}`}
                                 src={item.src}
                                 width={width}
-                                // height={height}
                                 height='auto'
                                 role= 'img'
                                 alt= {`${item.name} icon`}
