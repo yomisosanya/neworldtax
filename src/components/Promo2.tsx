@@ -2,6 +2,8 @@
 
 export default function Promo2(){
 
+    const url: string = 'https://neworldtax-static-webapp-bucket.s3.us-east-2.amazonaws.com/assets/stock/';
+
     return (
         <div
             className='promo-outer-box'
@@ -12,7 +14,7 @@ export default function Promo2(){
                 <img
                     className='promo-img'
                     alt='Income Tax Picture'
-                    src='/src/assets/stock/waitress.webp'
+                    src={`${url}waitress.webp`}
                     role='img'
                 />
                 <div>
