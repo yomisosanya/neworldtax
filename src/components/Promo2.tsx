@@ -1,9 +1,6 @@
 
 
 export default function Promo2(){
-    
-    // const width: string = '600px';
-    // const height: string = '400px';
 
     return (
         <div
@@ -16,8 +13,6 @@ export default function Promo2(){
                     className='promo-img'
                     alt='Income Tax Picture'
                     src='./src/assets/stock/waitress.webp'
-                    // width={width}
-                    // height={height}
                     role='img'
                 />
                 <div>

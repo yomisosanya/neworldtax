@@ -1,10 +1,5 @@
 
-
-
 export default function Promo3(){
-    
-    // const width: string = '600px';
-    // const height: string = '400px';
 
     return (
         <div
@@ -17,8 +12,6 @@ export default function Promo3(){
                     className='promo-img'
                     alt='Child-Care Tax Credits Picture'
                     src='./src/assets/stock/mother-daughter.webp'
-                    // width={width}
-                    // height={height}
                     role='img'
                 />
                 <div>

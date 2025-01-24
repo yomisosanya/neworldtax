@@ -2,8 +2,6 @@
 
 export default function Promo1(){
     
-    // const width: string = '600px';
-    // const height: string = '400px';
 
     return (
         <div
@@ -16,8 +14,6 @@ export default function Promo1(){
                     className='promo-img'
                     alt='Business Returns Picture'
                     src='./src/assets/stock/pexels-ron-lach-8086357.jpg'
-                    // width={width}
-                    // height={height}
                     role='img'
                 />
                 <div>
