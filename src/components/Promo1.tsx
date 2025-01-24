@@ -13,7 +13,7 @@ export default function Promo1(){
                 <img
                     className='promo-img'
                     alt='Business Returns Picture'
-                    src='./src/assets/stock/pexels-ron-lach-8086357.jpg'
+                    src='/src/assets/stock/pexels-ron-lach-8086357.jpg'
                     role='img'
                 />
                 <div>

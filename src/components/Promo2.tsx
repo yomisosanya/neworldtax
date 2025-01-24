@@ -12,7 +12,7 @@ export default function Promo2(){
                 <img
                     className='promo-img'
                     alt='Income Tax Picture'
-                    src='./src/assets/stock/waitress.webp'
+                    src='/src/assets/stock/waitress.webp'
                     role='img'
                 />
                 <div>
