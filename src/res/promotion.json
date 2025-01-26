@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Income Tax",
+        "subtitle": "including",
+        "src": "waitress.webp",
+        "alt": "Income Tax Picture",
+        "list": [
+            "W2",
+            "Self-Employed",
+            "Small Business Tax"
+        ]
+    },
+    {
+        "title": "Child-Care Tax Credit",
+        "subtitle": "up to",
+        "src": "mother-daughter.webp",
+        "alt": "Child-Care Picture",
+        "list": [
+            "$4,213 - 1  Child",
+            "$6,960 - 2 Children",
+            "$7,830 - 3 Children"
+        ]
+    },
+    {
+        "title": "Business Returns",
+        "subtitle": "including",
+        "src": "work-desk.jpg",
+        "alt": "Business Returns Picture",
+        "list": [
+            "LLC",
+            "Partnership",
+            "S-Corp",
+            "C-Corp"
+        ]
+    }
+]

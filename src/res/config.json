@@ -1,0 +1,5 @@
+{
+    "main-site": "https://wwww.neworldtax.com/",
+    "static-site": "https://neworldtax-static-webapp-bucket.s3.us-east-2.amazonaws.com/",
+    "stock-path": "assets/stock/"
+}

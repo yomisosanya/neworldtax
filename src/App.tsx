@@ -8,9 +8,10 @@ import PageHeader from './components/PageHeader'
 import PageFooter2 from './components/PageFooter2'
 import PageNavBar from './components/PageNavBar'
 import PageSidebar from './components/PageSidebar'
-import Promo1 from './components/Promo1'
-import Promo2 from './components/Promo2'
-import Promo3 from './components/Promo3'
+import Promotion from './components/Promotion'
+// import Promo1 from './components/Promo1'
+// import Promo2 from './components/Promo2'
+// import Promo3 from './components/Promo3'
 
 import PageRequirement from './components/PageRequirement'
 import PageWordArt from './components/PageWordArt'
@@ -41,9 +42,10 @@ export default function App(){
             <PageWordArt />
             <PageRequirement />
         </div>
-        <Promo3 />
+        <Promotion />
+        {/* <Promo3 />
         <Promo2 />
-        <Promo1 />
+        <Promo1 /> */}
         <div 
             id="base-footer"
             // style={{height: 'fit-content'}}
