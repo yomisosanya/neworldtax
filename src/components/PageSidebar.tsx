@@ -1,8 +1,12 @@
 import data from '../res/service.json'
+import { useState } from 'react';
 
 export default function PageSidebar(){
     const header = data.services.name;
     const items = data.services.list;
+
+    const [headerState, setHeaderState] = useState(false);
+    const isVisible = (clause: boolean) => (clause) ? 'block' : 'none';
 
     return(
         <nav>
@@ -13,15 +17,25 @@ export default function PageSidebar(){
                 <figcaption
                     className='card-header'
                 >
-                    <strong
-                        className='list-header'
-                    >
-                        {header}
-                    </strong>
+                    <p>
+                        <span
+                        className='material-icons icon-hover'
+                        onClick={() => setHeaderState(!headerState)}
+                        style={{marginRight: '1ex'}}
+                        >
+                            menu
+                        </span>
+                        <strong
+                            className='list-header'
+                        >
+                            {header}
+                        </strong>
+                    </p>
                 </figcaption>
                 <ul 
                     id='page-side-bar'
                     className='list-group'
+                    style={{ display: isVisible(headerState)}}
                 >
                     {items.map((item) => (
                         <li 

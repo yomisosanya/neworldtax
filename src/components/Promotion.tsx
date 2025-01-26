@@ -24,7 +24,9 @@ export default function Promotion(){
                     />
                     <figure>
                         <figcaption>
-                            <h2>
+                            <h2
+                                className='promo-title'
+                            >
                                 {promo.title}
                             </h2>
                         </figcaption>
