@@ -1,8 +1,9 @@
 
 
 export default function Promo1(){
-    
 
+    const url: string = 'https://neworldtax-static-webapp-bucket.s3.us-east-2.amazonaws.com/assets/stock/';
+    
     return (
         <div
             className='promo-outer-box'
@@ -13,7 +14,7 @@ export default function Promo1(){
                 <img
                     className='promo-img'
                     alt='Business Returns Picture'
-                    src='/src/assets/stock/pexels-ron-lach-8086357.jpg'
+                    src={`${url}work-desk.jpg`}
                     role='img'
                 />
                 <div>
